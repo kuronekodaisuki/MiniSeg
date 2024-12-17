@@ -10,8 +10,8 @@
     "debug": 0
   },
   "directory_config": {
-    "img_source": "10992",
-    "img_dest": "img_dest",
+    "img_source": "../img_source",
+    "img_dest": "10992",
     "csv_dest": "csv_dest",
     "log_dest": "log_dest/file_log.log"
   },

@@ -8,3 +8,13 @@
 [2024-12-17 18:27:10,251][INFO] 推論開始
 [2024-12-17 22:52:59,133][INFO] 推論開始
 [2024-12-17 22:54:19,419][INFO] 推論開始
+[2024-12-18 01:45:50,885][INFO] 推論開始
+[2024-12-18 01:46:39,644][INFO] 推論開始
+[2024-12-18 01:47:38,713][INFO] 推論開始
+[2024-12-18 02:41:11,647][INFO] 推論開始
+[2024-12-18 03:16:59,580][INFO] 推論開始
+[2024-12-18 03:17:09,409][INFO] detect----1. -read images, preprocess(matrix) and inference runtime(ms)=9828
+[2024-12-18 03:17:09,480][INFO] detect----2. -post-process filter bounding box runtime(ms)=71
+[2024-12-18 03:17:09,889][INFO] detect----3. -WRITE_RESULT_IMAGE runtime(ms)=410
+[2024-12-18 03:17:09,891][INFO] 推論終了
+[2024-12-18 03:17:09,891][INFO] __process_detection----0. -total runtime(ms)=10311
