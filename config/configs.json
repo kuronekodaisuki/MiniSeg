@@ -1,0 +1,19 @@
+{
+  "model_file_path": "model/Model_P3.3_training.onnx",
+  "timeout": 600,
+  "detection_config": {
+    "confidence_threshold": 0.7,
+    "resized_height": 96,
+    "resized_width": 96,
+    "draw_result": 1,
+    "detection_size": 0,
+    "debug": 0
+  },
+  "directory_config": {
+    "img_source": "..\\img_source",
+    "img_dest": "..\\img_dest",
+    "csv_dest": "..\\csv_dest",
+    "log_dest": "..\\log_dest\\file_log.log"
+  },
+  "log_level": 20
+}
