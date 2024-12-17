@@ -360,7 +360,8 @@ class DetectionManager:
     def __process_detection_for_small_image(self, no_mask_result_file_path=""):
         time_0 = int(round(time.time() * 1000))
         self.__safe_logging("推論開始", 1)
-        no_mask_result_file_path = no_mask_result_file_path.replace("/", "\\")
+        #no_mask_result_file_path = no_mask_result_file_path.replace("/", "\\")
+        print(no_mask_result_file_path)
         self.detector.detect_small(self.input_imgs, no_mask_result_file_path)
 
         self.__safe_logging("推論終了", 1)
@@ -370,8 +371,8 @@ class DetectionManager:
 
 
     def __process_detection(self, img_info, no_mask_result_file_path="", mask_result_file_path="", time_statics=None):
-        no_mask_result_file_path = no_mask_result_file_path.replace("/", "\\")
-        mask_result_file_path = mask_result_file_path.replace('/', '\\')
+        #no_mask_result_file_path = no_mask_result_file_path.replace("/", "\\")
+        #mask_result_file_path = mask_result_file_path.replace('/', '\\')
         success = True
         detection_image_file_name, detection_area_image_file_name = img_info[:]
         file_name_parts = path.basename(detection_image_file_name).split(".")
