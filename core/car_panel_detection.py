@@ -72,7 +72,7 @@ class CarPanelDetection:
         time_1 = int(round(time.time() * 1000))
         self.safe_logging("detect----1. -read images, preprocess(matrix) and inference runtime(ms)=" + str(time_1 - time_0), 1)
         predict_boxes_list = post_processor.get_bbox_for_small(result_mask, self.detection_config.confidence_threshold)
-
+        print(predict_boxes_list)
         defect_info.defect_infos = predict_boxes_list
         time_2 = int(round(time.time() * 1000))
         self.safe_logging("detect----2. -post-process filter bounding box runtime(ms)=" + str(time_2 - time_1), 1)
